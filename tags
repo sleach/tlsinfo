@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HostInfo	main.py	/^HostInfo = namedtuple(field_names="cert hostname peername", typename="HostInfo")$/;"	v
+NameOID	main.py	/^from cryptography.x509.oid import NameOID$/;"	i
+SSL	main.py	/^from OpenSSL import SSL$/;"	i
+author	setup.py	/^    author="Sean Leach",$/;"	v
+check_it_out	main.py	/^def check_it_out(hostname, port):$/;"	f
+description	setup.py	/^    description="tlsinfo",$/;"	v
+entry_points	setup.py	/^    entry_points={$/;"	v
+ev_oids	main.py	/^ev_oids = [$/;"	v
+get_alt_names	main.py	/^def get_alt_names(cert):$/;"	f
+get_certificate	main.py	/^def get_certificate(hostname, port):$/;"	f
+get_common_name	main.py	/^def get_common_name(cert):$/;"	f
+get_issuer	main.py	/^def get_issuer(cert):$/;"	f
+get_policies	main.py	/^def get_policies(cert):$/;"	f
+idna	main.py	/^import idna$/;"	i
+info	main.py	/^    info = get_certificate(sys.argv[1], 443)$/;"	v
+install_requires	setup.py	/^    install_requires=required,$/;"	v
+is_ev	main.py	/^def is_ev(cert):$/;"	f
+name	setup.py	/^    name="tlsinfo",$/;"	v
+namedtuple	main.py	/^from collections import namedtuple$/;"	i
+packages	setup.py	/^    packages=["tlsinfo"],$/;"	v
+print_basic_info	main.py	/^def print_basic_info(hostinfo):$/;"	f
+re	setup.py	/^import re$/;"	i
+required	setup.py	/^    required = f.read().splitlines()$/;"	v
+required	setup.py	/^required = []$/;"	v
+setup	setup.py	/^from setuptools import setup$/;"	i
+setup_options	setup.py	/^setup_options = dict($/;"	v
+socket	main.py	/^from socket import socket$/;"	i
+sys	main.py	/^import sys$/;"	i
+url	setup.py	/^    url="https:\/\/github.com\/sleach\/tlsinfo",$/;"	v
+verify_cert	main.py	/^def verify_cert(cert, hostname):$/;"	f
+version	setup.py	/^    version=version,$/;"	v
+version	setup.py	/^version = "0.1.0"$/;"	v
+x509	main.py	/^from cryptography import x509$/;"	i
